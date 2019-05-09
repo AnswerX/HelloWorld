@@ -15,6 +15,11 @@
 		5BC704631C9CE7DE008E601B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC704611C9CE7DE008E601B /* LaunchScreen.storyboard */; };
 		5BC7046E1C9CE7DF008E601B /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7046D1C9CE7DF008E601B /* HelloWorldTests.m */; };
 		5BC704791C9CE7DF008E601B /* HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC704781C9CE7DF008E601B /* HelloWorldUITests.m */; };
+		79A3D2B22283C566001FE527 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D2B12283C566001FE527 /* BaseTabBarController.m */; };
+		79A3D2B52283C5A7001FE527 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D2B42283C5A7001FE527 /* BaseViewController.m */; };
+		79A3D2BB2283C613001FE527 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D2BA2283C613001FE527 /* BaseNavigationController.m */; };
+		79A3D2BE2283C629001FE527 /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D2BD2283C629001FE527 /* View1Controller.m */; };
+		79A3D2C12283C631001FE527 /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D2C02283C631001FE527 /* View2Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		5BC704741C9CE7DF008E601B /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC704781C9CE7DF008E601B /* HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldUITests.m; sourceTree = "<group>"; };
 		5BC7047A1C9CE7DF008E601B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A3D2B02283C566001FE527 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		79A3D2B12283C566001FE527 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		79A3D2B32283C5A7001FE527 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		79A3D2B42283C5A7001FE527 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		79A3D2B92283C613001FE527 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		79A3D2BA2283C613001FE527 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		79A3D2BC2283C629001FE527 /* View1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View1Controller.h; sourceTree = "<group>"; };
+		79A3D2BD2283C629001FE527 /* View1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View1Controller.m; sourceTree = "<group>"; };
+		79A3D2BF2283C631001FE527 /* View2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View2Controller.h; sourceTree = "<group>"; };
+		79A3D2C02283C631001FE527 /* View2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View2Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		5BC704521C9CE7DE008E601B /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				79A3D2AC2283C4CF001FE527 /* Class */,
 				5BC704561C9CE7DE008E601B /* AppDelegate.h */,
 				5BC704571C9CE7DE008E601B /* AppDelegate.m */,
 				5BC704591C9CE7DE008E601B /* ViewController.h */,
@@ -138,6 +154,23 @@
 				5BC7047A1C9CE7DF008E601B /* Info.plist */,
 			);
 			path = HelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		79A3D2AC2283C4CF001FE527 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				79A3D2B02283C566001FE527 /* BaseTabBarController.h */,
+				79A3D2B12283C566001FE527 /* BaseTabBarController.m */,
+				79A3D2B32283C5A7001FE527 /* BaseViewController.h */,
+				79A3D2B42283C5A7001FE527 /* BaseViewController.m */,
+				79A3D2B92283C613001FE527 /* BaseNavigationController.h */,
+				79A3D2BA2283C613001FE527 /* BaseNavigationController.m */,
+				79A3D2BC2283C629001FE527 /* View1Controller.h */,
+				79A3D2BD2283C629001FE527 /* View1Controller.m */,
+				79A3D2BF2283C631001FE527 /* View2Controller.h */,
+				79A3D2C02283C631001FE527 /* View2Controller.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -271,8 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A3D2B22283C566001FE527 /* BaseTabBarController.m in Sources */,
+				79A3D2B52283C5A7001FE527 /* BaseViewController.m in Sources */,
+				79A3D2BB2283C613001FE527 /* BaseNavigationController.m in Sources */,
 				5BC7045B1C9CE7DE008E601B /* ViewController.m in Sources */,
 				5BC704581C9CE7DE008E601B /* AppDelegate.m in Sources */,
+				79A3D2C12283C631001FE527 /* View2Controller.m in Sources */,
+				79A3D2BE2283C629001FE527 /* View1Controller.m in Sources */,
 				5BC704551C9CE7DE008E601B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +540,7 @@
 				5BC7047F1C9CE7DF008E601B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BC704801C9CE7DF008E601B /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +549,7 @@
 				5BC704821C9CE7DF008E601B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BC704831C9CE7DF008E601B /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +558,7 @@
 				5BC704851C9CE7DF008E601B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
